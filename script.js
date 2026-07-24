@@ -170,7 +170,7 @@ behavior:"smooth"
 
 /* ==========================
    Contact Form
-========================== 
+========================== */
 
 const form=document.querySelector(".contact-form");
 
@@ -182,6 +182,6 @@ alert("Thank you! Your message has been sent successfully.");
 form.reset();
 });
 
-});*/
+});
 
 }
