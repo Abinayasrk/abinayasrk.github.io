@@ -4,7 +4,7 @@
 
 const roles = [
   "Senior Software Developer",
-  "Data Entry Specialist"
+   "Data Entry Specialist"
 ];
 
 const typing = document.getElementById("typing");
@@ -177,10 +177,12 @@ const form=document.querySelector(".contact-form");
 if(form){
 
 form.addEventListener("submit",(e)=>{
+
 e.preventDefault();
+
 alert("Thank you! Your message has been sent successfully.");
+
 form.reset();
-});
 
 });
 
