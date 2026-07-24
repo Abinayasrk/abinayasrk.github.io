@@ -1,150 +1,720 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Abinaya Lakshmi | Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abinaya Lakshmi | Portfolio</title>
 
-  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-  <script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 
 <body>
 
-<nav>
-    <div class="logo">Abinaya.</div>
+<header>
 
-    <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</nav>
+<nav class="navbar">
 
-<section id="home" class="hero">
+<div class="logo">
 
-<div class="hero-text">
+<div class="logo-circle">
+AL
+</div>
 
-<h1>Hi, I'm <span>Abinaya Lakshmi</span></h1>
+<span>Abinaya Lakshmi</span>
 
-<h2>Senior Software Engineer</h2>
+</div>
 
-<p>
-Web Developer | Data Entry Specialist
-</p>
+<ul>
 
-<a href="assets/AbinayaLakshmi_Resume.pdf" class="btn">
+<li><a href="#home" class="active">Home</a></li>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#skills">Skills</a></li>
+
+<li><a href="#experience">Experience</a></li>
+
+<li><a href="#projects">Projects</a></li>
+
+<li><a href="#education">Education</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+<div class="nav-right">
+
+<button id="theme-btn">
+
+<i class="fa-solid fa-moon"></i>
+
+</button>
+
+<a href="assets/resume.pdf" class="resume-btn">
+
+<i class="fa-solid fa-download"></i>
+
 Download Resume
+
 </a>
 
 </div>
 
-<div class="hero-image">
+</nav>
 
-<img src="logo.jpg" alt="Abinaya">
+</header>
+
+<section id="home" class="hero">
+
+<div class="hero-left">
+
+<div class="welcome">
+
+👋 Welcome to my portfolio
+
+</div>
+
+<h1>
+
+Hi, I'm
+
+<span>
+
+Abinaya Lakshmi
+
+</span>
+
+</h1>
+
+<h2 id="typing">
+
+Senior Software Engineer
+
+</h2>
+
+<p>
+
+Passionate about building dynamic web applications and solving real-world problems.
+
+6+ years of experience in Web Development and 1+ year in Data Entry.
+
+</p>
+
+<div class="hero-buttons">
+
+<a href="#contact" class="btn-primary">
+
+<i class="fa-regular fa-paper-plane"></i>
+
+Hire Me
+
+</a>
+
+<a href="assets/resume.pdf"
+
+class="btn-outline">
+
+<i class="fa-solid fa-download"></i>
+
+Download Resume
+
+</a>
+
+</div>
+
+<div class="social-icons">
+
+<a href="#">
+
+<i class="fab fa-linkedin"></i>
+
+</a>
+
+<a href="#">
+
+<i class="fab fa-github"></i>
+
+</a>
+
+<a href="#">
+
+<i class="fa-solid fa-envelope"></i>
+
+</a>
+
+</div>
+
+</div>
+
+<div class="hero-right">
+
+<img src="assets/profile.png"
+
+alt="Abinaya">
+
+</div>
+
+</section>
+<!-- ===================== STATS ===================== -->
+
+<section class="stats">
+
+<div class="stat-card">
+<i class="fa-solid fa-briefcase"></i>
+<h2>6+</h2>
+<p>Years of Experience</p>
+</div>
+
+<div class="stat-card">
+<i class="fa-solid fa-code"></i>
+<h2>10+</h2>
+<p>Projects Completed</p>
+</div>
+
+<div class="stat-card">
+<i class="fa-solid fa-face-smile"></i>
+<h2>100%</h2>
+<p>Client Satisfaction</p>
+</div>
+
+<div class="stat-card">
+<i class="fa-solid fa-trophy"></i>
+<h2>Dedicated</h2>
+<p>Problem Solver</p>
+</div>
+
+</section>
+
+<!-- ===================== FEATURE CARDS ===================== -->
+
+<section class="feature-grid">
+
+<div class="feature-card">
+<div class="icon blue">
+<i class="fa-solid fa-user"></i>
+</div>
+
+<h3>About Me</h3>
+
+<p>
+Get to know more about my background, skills and passion.
+</p>
+
+<a href="#about">
+Explore →
+</a>
+
+</div>
+
+<div class="feature-card">
+
+<div class="icon cyan">
+<i class="fa-solid fa-code"></i>
+</div>
+
+<h3>Skills</h3>
+
+<p>
+
+Technologies and tools I use to build high quality applications.
+
+</p>
+
+<a href="#skills">
+
+Explore →
+
+</a>
+
+</div>
+
+<div class="feature-card">
+
+<div class="icon purple">
+
+<i class="fa-solid fa-briefcase"></i>
+
+</div>
+
+<h3>
+
+Experience
+
+</h3>
+
+<p>
+
+Professional journey and companies I worked with.
+
+</p>
+
+<a href="#experience">
+
+Explore →
+
+</a>
+
+</div>
+
+<div class="feature-card">
+
+<div class="icon orange">
+
+<i class="fa-solid fa-folder-open"></i>
+
+</div>
+
+<h3>
+
+Projects
+
+</h3>
+
+<p>
+
+Web applications and real-world solutions I've developed.
+
+</p>
+
+<a href="#projects">
+
+Explore →
+
+</a>
+
+</div>
+
+<div class="feature-card">
+
+<div class="icon green">
+
+<i class="fa-solid fa-graduation-cap"></i>
+
+</div>
+
+<h3>
+
+Education
+
+</h3>
+
+<p>
+
+Academic background and certifications.
+
+</p>
+
+<a href="#education">
+
+Explore →
+
+</a>
 
 </div>
 
 </section>
 
-<section id="about">
+<!-- ===================== ABOUT ===================== -->
+
+<section id="about" class="about">
+
+<div class="section-title">
 
 <h2>About Me</h2>
 
 <p>
 
-Experienced Web Developer with over 6 years of expertise in PHP, Laravel, CakePHP, MySQL, API Integration, and Data Entry. Passionate about building reliable web applications and providing high-quality remote support.
+Experienced Web Developer with 6+ years of expertise in
+PHP, Laravel, CakePHP, MySQL, API Integration and responsive
+web applications.
 
 </p>
 
+</div>
+
+<div class="about-grid">
+
+<div class="about-box">
+
+<i class="fa-solid fa-user"></i>
+
+<h3>Name</h3>
+
+<p>Abinaya Lakshmi</p>
+
+</div>
+
+<div class="about-box">
+
+<i class="fa-solid fa-location-dot"></i>
+
+<h3>Location</h3>
+
+<p>Dindigul, Tamil Nadu, India</p>
+
+</div>
+
+<div class="about-box">
+
+<i class="fa-solid fa-envelope"></i>
+
+<h3>Email</h3>
+
+<p>abi.91strk@gmail.com</p>
+
+</div>
+
+<div class="about-box">
+
+<i class="fa-solid fa-clock"></i>
+
+<h3>Availability</h3>
+
+<p>Open to Work</p>
+
+</div>
+
+</div>
+
+</section>
+<!-- ================= SKILLS ================= -->
+
+<section id="skills" class="skills">
+
+<div class="section-title">
+<h2>My Skills</h2>
+<p>Technologies and tools I work with</p>
+</div>
+
+<div class="skill">
+
+<div class="skill-info">
+<span>PHP</span>
+<span>95%</span>
+</div>
+
+<div class="progress">
+<div class="progress-bar" style="width:95%"></div>
+</div>
+
+</div>
+
+<div class="skill">
+
+<div class="skill-info">
+<span>Laravel</span>
+<span>90%</span>
+</div>
+
+<div class="progress">
+<div class="progress-bar" style="width:90%"></div>
+</div>
+
+</div>
+
+<div class="skill">
+
+<div class="skill-info">
+<span>CakePHP</span>
+<span>90%</span>
+</div>
+
+<div class="progress">
+<div class="progress-bar" style="width:90%"></div>
+</div>
+
+</div>
+
+<div class="skill">
+
+<div class="skill-info">
+<span>MySQL</span>
+<span>92%</span>
+</div>
+
+<div class="progress">
+<div class="progress-bar" style="width:92%"></div>
+</div>
+
+</div>
+
+<div class="skill">
+
+<div class="skill-info">
+<span>HTML / CSS</span>
+<span>95%</span>
+</div>
+
+<div class="progress">
+<div class="progress-bar" style="width:95%"></div>
+</div>
+
+</div>
+
+<div class="skill">
+
+<div class="skill-info">
+<span>JavaScript</span>
+<span>80%</span>
+</div>
+
+<div class="progress">
+<div class="progress-bar" style="width:80%"></div>
+</div>
+
+</div>
+
 </section>
 
-<section id="skills">
+<!-- ================= EXPERIENCE ================= -->
 
-<h2>Skills</h2>
+<section id="experience" class="experience">
 
-<div class="skill">
-HTML
+<div class="section-title">
+<h2>Experience Timeline</h2>
 </div>
 
-<div class="skill">
-CSS
+<div class="timeline">
+
+<div class="timeline-item">
+
+<div class="timeline-dot"></div>
+
+<div class="timeline-content">
+
+<h3>Senior Software Engineer</h3>
+
+<span>2022 - Present</span>
+
+<p>
+Developing enterprise web applications using
+PHP, Laravel, CakePHP, MySQL and REST APIs.
+</p>
+
 </div>
 
-<div class="skill">
-PHP
 </div>
 
-<div class="skill">
-Laravel
+<div class="timeline-item">
+
+<div class="timeline-dot"></div>
+
+<div class="timeline-content">
+
+<h3>Software Engineer</h3>
+
+<span>2019 - 2022</span>
+
+<p>
+Worked on multiple client projects,
+eCommerce websites and API Integration.
+</p>
+
 </div>
 
-<div class="skill">
-CakePHP
 </div>
 
-<div class="skill">
-MySQL
+<div class="timeline-item">
+
+<div class="timeline-dot"></div>
+
+<div class="timeline-content">
+
+<h3>Data Entry Operator</h3>
+
+<span>2017 - 2018</span>
+
+<p>
+Handled accurate data entry,
+verification and reporting.
+</p>
+
 </div>
 
-<div class="skill">
-Excel
 </div>
 
-<div class="skill">
-Google Sheets
 </div>
 
 </section>
 
-<section id="projects">
+<!-- ================= EDUCATION ================= -->
 
-<h2>Projects</h2>
+<section id="education" class="education">
+
+<div class="section-title">
+<h2>Education</h2>
+</div>
+
+<div class="education-card">
+
+<i class="fa-solid fa-graduation-cap"></i>
+
+<h3>B.E. Electronics & Communication Engineering</h3>
+
+<p>
+Strong foundation in programming,
+database systems and software development.
+</p>
+
+</div>
+
+</section>
+<!-- ================= PROJECTS ================= -->
+
+<section id="projects" class="projects">
+
+<div class="section-title">
+<h2>Featured Projects</h2>
+<p>Some of my recent work</p>
+</div>
+
+<div class="project-grid">
 
 <div class="project-card">
 
+<div class="project-image">
+<img src="assets/ecco.jpg" alt="ECCO">
+</div>
+
+<div class="project-content">
 <h3>ECCO</h3>
+<p>
+Healthcare web application built using Core PHP, MySQL and jQuery.
+</p>
 
-<p>Healthcare web application developed using Core PHP and MySQL.</p>
+<div class="project-buttons">
+<a href="#" class="btn-primary">View Project</a>
+</div>
+
+</div>
 
 </div>
 
 <div class="project-card">
 
+<div class="project-image">
+<img src="assets/ecco-laravel.jpg" alt="ECCO Laravel">
+</div>
+
+<div class="project-content">
 <h3>ECCO Laravel</h3>
+<p>
+Migration of the ECCO application to the Laravel framework.
+</p>
 
-<p>Migration of ECCO platform into Laravel Framework.</p>
+<div class="project-buttons">
+<a href="#" class="btn-primary">View Project</a>
+</div>
+
+</div>
 
 </div>
 
 <div class="project-card">
 
-<h3>PSDM1</h3>
+<div class="project-image">
+<img src="assets/psdm1.jpg" alt="PSDM1">
+</div>
 
-<p>Content Management & E-commerce platform using CakePHP.</p>
+<div class="project-content">
+<h3>PSDM1</h3>
+<p>
+Content Management and E-commerce platform developed using CakePHP.
+</p>
+
+<div class="project-buttons">
+<a href="#" class="btn-primary">View Project</a>
+</div>
+
+</div>
+
+</div>
 
 </div>
 
 </section>
 
-<section id="contact">
+<!-- ================= CONTACT ================= -->
 
-<h2>Contact</h2>
+<section id="contact" class="contact">
 
-<p>Email: abi96.ece@gmail.com</p>
+<div class="section-title">
+<h2>Let's Work Together</h2>
+<p>Feel free to contact me.</p>
+</div>
 
-<p>Location: Dindigul, Tamil Nadu, India</p>
+<div class="contact-wrapper">
+
+<div class="contact-info">
+
+<h3>Contact Information</h3>
+
+<p><i class="fa-solid fa-envelope"></i> abi96.ece@gmail.com</p>
+
+<p><i class="fa-solid fa-location-dot"></i> Dindigul, Tamil Nadu, India</p>
+
+<p><i class="fa-brands fa-linkedin"></i> linkedin.com/in/yourprofile</p>
+
+<p><i class="fa-brands fa-github"></i> github.com/Abinayasrk</p>
+
+</div>
+
+<form class="contact-form">
+
+<input type="text" placeholder="Your Name" required>
+
+<input type="email" placeholder="Your Email" required>
+
+<input type="text" placeholder="Subject">
+
+<textarea rows="6" placeholder="Message"></textarea>
+
+<button type="submit" class="btn-primary">
+Send Message
+</button>
+
+</form>
+
+</div>
 
 </section>
+
+<!-- ================= FOOTER ================= -->
 
 <footer>
 
-<p>© 2026 Abinaya Lakshmi. All Rights Reserved.</p>
+<div class="footer-content">
+
+<h2>Abinaya Lakshmi</h2>
+
+<p>
+Senior Software Engineer | Web Developer | Data Entry Specialist
+</p>
+
+<div class="footer-social">
+
+<a href="#"><i class="fab fa-linkedin"></i></a>
+
+<a href="#"><i class="fab fa-github"></i></a>
+
+<a href="#"><i class="fa-solid fa-envelope"></i></a>
+
+</div>
+
+<p class="copyright">
+
+© 2026 Abinaya Lakshmi. All Rights Reserved.
+
+</p>
+
+</div>
 
 </footer>
 
