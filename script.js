@@ -108,7 +108,7 @@ observer.observe(sec);
 
 /* ==========================
    Dark / Light Mode
-========================== */
+========================== 
 
 const themeBtn=document.getElementById("theme-btn");
 
@@ -126,7 +126,7 @@ themeBtn.innerHTML='<i class="fa-solid fa-moon"></i>';
 
 }
 
-});
+});*/
 
 
 /* ==========================
