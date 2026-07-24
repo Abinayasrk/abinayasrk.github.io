@@ -4,7 +4,6 @@
 
 const roles = [
   "Senior Software Developer",
-  "Web Developer",
   "Data Entry Specialist"
 ];
 
