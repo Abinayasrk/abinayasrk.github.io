@@ -3,9 +3,8 @@
 ========================== */
 
 const roles = [
-  "Senior Software Engineer",
+  "Senior Software Developer",
   "Web Developer",
-  "PHP Laravel Developer",
   "Data Entry Specialist"
 ];
 
