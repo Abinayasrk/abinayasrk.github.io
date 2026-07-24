@@ -1,122 +1,154 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Abinaya Lakshmi | Portfolio</title>
-<style>
-*{margin:0;padding:0;box-sizing:border-box;}
-body{
-font-family:Arial,sans-serif;
-background:#f4f7fc;
-color:#333;
-}
-header{
-background:linear-gradient(135deg,#2563eb,#1e40af);
-color:white;
-padding:60px 20px;
-text-align:center;
-}
-header h1{
-font-size:40px;
-}
-header p{
-font-size:18px;
-margin-top:10px;
-}
-.container{
-max-width:1000px;
-margin:30px auto;
-padding:20px;
-}
-.card{
-background:#fff;
-padding:25px;
-margin-bottom:20px;
-border-radius:12px;
-box-shadow:0 4px 10px rgba(0,0,0,.1);
-}
-h2{
-color:#2563eb;
-margin-bottom:15px;
-}
-ul{
-padding-left:20px;
-line-height:2;
-}
-.button{
-display:inline-block;
-padding:12px 25px;
-background:#2563eb;
-color:white;
-text-decoration:none;
-border-radius:6px;
-margin-top:15px;
-}
-footer{
-background:#1f2937;
-color:white;
-text-align:center;
-padding:20px;
-margin-top:30px;
-}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abinaya Lakshmi | Portfolio</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-<header>
-<h1>Abinaya Lakshmi</h1>
-<p>Website Developer | Data Entry Specialist | Virtual Assistant</p>
-</header>
+<nav>
+    <div class="logo">Abinaya.</div>
 
-<div class="container">
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
 
-<div class="card">
-<h2>About Me</h2>
+<section id="home" class="hero">
+
+<div class="hero-text">
+
+<h1>Hi, I'm <span>Abinaya Lakshmi</span></h1>
+
+<h2>Senior Software Engineer</h2>
+
 <p>
-I am a Website Developer with 5 years of experience and a Data Entry Specialist with 2 years of experience. I have worked on website development, API integration, Excel, Google Sheets, and administrative support. I am detail-oriented and passionate about delivering high-quality work.
+Web Developer | Data Entry Specialist
 </p>
+
+<a href="assets/AbinayaLakshmi_Resume.pdf" class="btn">
+Download Resume
+</a>
+
 </div>
 
-<div class="card">
+<div class="hero-image">
+
+<img src="assets/profile.jpg" alt="Abinaya">
+
+</div>
+
+</section>
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<p>
+
+Experienced Web Developer with over 6 years of expertise in PHP, Laravel, CakePHP, MySQL, API Integration, and Data Entry. Passionate about building reliable web applications and providing high-quality remote support.
+
+</p>
+
+</section>
+
+<section id="skills">
+
 <h2>Skills</h2>
-<ul>
-<li>HTML & CSS</li>
-<li>PHP & CakePHP</li>
-<li>API Integration</li>
-<li>Microsoft Excel</li>
-<li>Google Sheets</li>
-<li>Google Docs</li>
-<li>Data Entry</li>
-<li>Web Research</li>
-<li>Virtual Assistance</li>
-</ul>
+
+<div class="skill">
+HTML
 </div>
 
-<div class="card">
-<h2>Experience</h2>
-<ul>
-<li>5+ Years Website Development</li>
-<li>2+ Years Data Entry</li>
-<li>Administrative Support</li>
-<li>Remote Project Support</li>
-</ul>
+<div class="skill">
+CSS
 </div>
 
-<div class="card">
+<div class="skill">
+PHP
+</div>
+
+<div class="skill">
+Laravel
+</div>
+
+<div class="skill">
+CakePHP
+</div>
+
+<div class="skill">
+MySQL
+</div>
+
+<div class="skill">
+Excel
+</div>
+
+<div class="skill">
+Google Sheets
+</div>
+
+</section>
+
+<section id="projects">
+
+<h2>Projects</h2>
+
+<div class="project-card">
+
+<h3>ECCO</h3>
+
+<p>Healthcare web application developed using Core PHP and MySQL.</p>
+
+</div>
+
+<div class="project-card">
+
+<h3>ECCO Laravel</h3>
+
+<p>Migration of ECCO platform into Laravel Framework.</p>
+
+</div>
+
+<div class="project-card">
+
+<h3>PSDM1</h3>
+
+<p>Content Management & E-commerce platform using CakePHP.</p>
+
+</div>
+
+</section>
+
+<section id="contact">
+
 <h2>Contact</h2>
-<p>Email: abi96.ece@gmail.com</p>
-<p>LinkedIn: https://www.linkedin.com/in/abinaya-lakshmi-5693a935b</p>
-<a class="button" href="mailto:your-email@example.com">Contact Me</a>
-</div>
 
-</div>
+<p>Email: abi96.ece@gmail.com</p>
+
+<p>Location: Dindigul, Tamil Nadu, India</p>
+
+</section>
 
 <footer>
-© 2026 Abinaya Lakshmi | Portfolio
+
+<p>© 2026 Abinaya Lakshmi. All Rights Reserved.</p>
+
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
