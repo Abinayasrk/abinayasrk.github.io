@@ -170,7 +170,7 @@ behavior:"smooth"
 
 /* ==========================
    Contact Form
-========================== */
+========================== 
 
 const form=document.querySelector(".contact-form");
 
@@ -186,4 +186,4 @@ form.reset();
 
 });
 
-}
+}*/
