@@ -769,6 +769,7 @@ grid-template-columns:repeat(2,1fr);
 grid-template-columns:1fr;
 }
 
+   
 .navbar{
     flex-direction:row !important;
     justify-content:space-between;
