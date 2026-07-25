@@ -77,6 +77,14 @@ body{
 }*/
 @media (max-width:768px){
 
+   .navbar ul{
+    display:none;
+}
+
+.navbar ul.active{
+    display:flex;
+    flex-direction:column;
+}
 .navbar{
     position:fixed;
     top:0;
