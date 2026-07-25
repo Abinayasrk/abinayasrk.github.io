@@ -117,7 +117,7 @@ body{
 }
 
 .nav-links.active{
-    display:flex !important;
+    display:flex;
 }
 
 .nav-links li{
