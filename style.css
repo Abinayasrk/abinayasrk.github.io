@@ -34,6 +34,42 @@ body{
     background:rgba(8,17,31,.75);
     z-index:1000;
 }
+.menu-toggle{
+    display:none;
+    font-size:30px;
+    color:#fff;
+    background:none;
+    border:none;
+    cursor:pointer;
+}
+
+@media(max-width:768px){
+
+.menu-toggle{
+    display:block;
+}
+
+.nav-links{
+    display:none;
+    flex-direction:column;
+    width:100%;
+    text-align:center;
+    margin-top:15px;
+}
+
+.nav-links.active{
+    display:flex;
+}
+
+.hero{
+    padding-top:120px;
+}
+
+.hero-image img{
+    width:260px;
+    height:260px;
+}
+}
 
 .logo{
     display:flex;
