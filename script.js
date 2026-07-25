@@ -193,9 +193,10 @@ const navLinks = document.getElementById("nav-links");
 const menuToggle = document.getElementById("menu-toggle");
 
 menuToggle.addEventListener("click", () => {
-    alert("Clicked");
+    //alert("Clicked");
+   navLinks.classList.toggle("active");
 });
 /*menuToggle.onclick = function () {
    alert("Clicked");
-    navLinks.classList.toggle("active");
+    
 };*/
