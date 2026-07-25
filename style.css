@@ -35,7 +35,7 @@ body{
     z-index:1000;
 }
 .menu-toggle{
-    display:none;
+    display:none !important;
     font-size:30px;
     color:#fff;
     background:none;
