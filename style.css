@@ -78,7 +78,7 @@ body{
 @media (max-width:768px){
 
    .navbar ul{
-    display:none;
+    display:none !important;
 }
 
 .navbar ul.active{
