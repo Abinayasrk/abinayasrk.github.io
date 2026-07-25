@@ -186,8 +186,8 @@ form.reset();
 
 });
 
-}*/
-const menuToggle = document.getElementById("menu-toggle");
+}
+const menuToggle = document.getElementById("menu-toggle");*/
 const navLinks = document.getElementById("nav-links");
 
 const menuToggle = document.getElementById("menu-toggle");
