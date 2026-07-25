@@ -82,7 +82,7 @@ body{
 }
 
 .navbar ul.active{
-    display:flex;
+    display:flex !important;
     flex-direction:column;
 }
 .navbar{
