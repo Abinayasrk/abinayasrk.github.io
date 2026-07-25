@@ -190,6 +190,12 @@ form.reset();
 const menuToggle = document.getElementById("menu-toggle");
 const navLinks = document.getElementById("nav-links");
 
-menuToggle.onclick = function () {
+const menuToggle = document.getElementById("menu-toggle");
+
+menuToggle.addEventListener("click", () => {
+    alert("Clicked");
+});
+/*menuToggle.onclick = function () {
+   alert("Clicked");
     navLinks.classList.toggle("active");
-};
+};*/
