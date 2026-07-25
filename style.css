@@ -35,7 +35,7 @@ body{
     z-index:1000;
 }
 .menu-toggle{
-    display:none !important;
+    display:none;
     font-size:30px;
     color:#fff;
     background:none;
@@ -50,7 +50,7 @@ body{
 }
 
 .nav-links{
-    display:none;
+    display:none !important;
     flex-direction:column;
     width:100%;
     text-align:center;
