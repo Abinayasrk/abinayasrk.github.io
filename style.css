@@ -770,8 +770,9 @@ grid-template-columns:1fr;
 }
 
 .navbar{
-flex-direction:column;
-gap:20px;
+    flex-direction:row !important;
+    justify-content:space-between;
+    align-items:center;
 }
 
 .navbar ul{
